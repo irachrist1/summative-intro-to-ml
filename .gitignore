@@ -1,0 +1,26 @@
+# Python environment
+.venv/
+__pycache__/
+*.pyc
+
+# Node (used only to render the Word report)
+report/node_modules/
+
+# OS / editor cruft
+.DS_Store
+~$*
+*.tmp
+
+# Raw third-party datasets — re-downloaded automatically by the notebook
+# (UCI OULAD #349). The 433 MB clickstream exceeds GitHub's file limit.
+dataset_exploration/oulad/
+dataset_exploration/kaggle_perf/
+dataset_exploration/uci_student/
+dataset_exploration/xapi/
+oulad_data/
+data/raw/
+
+# Report binaries — regenerated from report.md / build scripts.
+# Held back from the initial push for review; add with `git add -f` when ready.
+report/summative_report.pdf
+report/summative_report.docx
